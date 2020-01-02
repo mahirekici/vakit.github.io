@@ -24,7 +24,7 @@ today = dd + '.' + mm + '.' + yyyy;
 var denemetarih = "8.01.2020"
 
 // getting json data from file for search results
-$.getJSON("../vakit.github.io/jsonDeneme/" + $filename + ".json", function (data) {
+$.getJSON("/vakit.github.io/jsonDeneme/" + $filename + ".json", function (data) {
 
 
     for (var i = 0; i < data.length; i++) {
